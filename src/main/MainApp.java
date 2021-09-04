@@ -13,7 +13,7 @@ public class MainApp {
 
 class Vingere {
 	public static String encrypt(String message, String key) { // encrypt process
-		String eMessage = ""; //empty first
+		String eMessage = ""; //empty first love
 		message = message.toUpperCase(); // translate everything to upper
 		for (int i = 0, j = 0; i < message.length(); i++) {
 			if (message.charAt(i) == ' ') {
